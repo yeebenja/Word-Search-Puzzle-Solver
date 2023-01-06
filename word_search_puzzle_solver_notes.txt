@@ -1,0 +1,25 @@
+
+Word Search Solver Personal Notes
+
+- When taking in the letters itself from the input file, we need make sure uppercase and lowercase are representing the same letter. We should make a separate function for this. For simplicity's sake, I'm going to work with default lowercase, i.e. uppercase -> uppercase and lowercase -> uppercase.
+
+Note: Palindrome words will show up twice!
+
+- Create a print_board function, similar to the function in minesweeper
+
+- I need to figure out a way to take in a board using a .txt file. I don't know how I should do this.
+-- Solution: first specify width and height of the board (Minimum width, height = 2). And then input the board. Something like this:
+
+8 5
+j s i p s s a k
+p j s ...
+k ...
+p ...
+l ...
+
+^^ Something like this
+
+
+Also, I should sort the word bank in alphabetical order
+Maybe: I should also report the results in alphabetical order using a map
+map<string, int> string = word. int = number of times found.
