@@ -473,32 +473,12 @@ public:
 
 	// EFFECTS: Changes inputted character to uppercase.
 	char lowercase_to_uppercase(const char* x) {
-		if (x[0] == 'A' || x[0] == 'a') return 'A';
-		else if (x[0] == 'B' || x[0] == 'b') return 'B';
-		else if (x[0] == 'C' || x[0] == 'c') return 'C';
-		else if (x[0] == 'D' || x[0] == 'd') return 'D';
-		else if (x[0] == 'E' || x[0] == 'e') return 'E';
-		else if (x[0] == 'F' || x[0] == 'f') return 'F';
-		else if (x[0] == 'G' || x[0] == 'g') return 'G';
-		else if (x[0] == 'H' || x[0] == 'h') return 'H';
-		else if (x[0] == 'I' || x[0] == 'i') return 'I';
-		else if (x[0] == 'J' || x[0] == 'j') return 'J';
-		else if (x[0] == 'K' || x[0] == 'k') return 'K';
-		else if (x[0] == 'L' || x[0] == 'l') return 'L';
-		else if (x[0] == 'M' || x[0] == 'm') return 'M';
-		else if (x[0] == 'N' || x[0] == 'n') return 'N';
-		else if (x[0] == 'O' || x[0] == 'o') return 'O';
-		else if (x[0] == 'P' || x[0] == 'p') return 'P';
-		else if (x[0] == 'Q' || x[0] == 'q') return 'Q';
-		else if (x[0] == 'R' || x[0] == 'r') return 'R';
-		else if (x[0] == 'S' || x[0] == 's') return 'S';
-		else if (x[0] == 'T' || x[0] == 't') return 'T';
-		else if (x[0] == 'U' || x[0] == 'u') return 'U';
-		else if (x[0] == 'V' || x[0] == 'v') return 'V';
-		else if (x[0] == 'W' || x[0] == 'w') return 'W';
-		else if (x[0] == 'X' || x[0] == 'x') return 'X';
-		else if (x[0] == 'Y' || x[0] == 'y') return 'Y';
-		else if (x[0] == 'Z' || x[0] == 'z') return 'Z';
+		if (isalpha(x[0])) {
+			if (x[0] >= 97 && x[0] <= 122) {
+				return x[0] - 32;
+			}
+			return x[0];
+		}
 		else {
 			Invalid_Character exception1;
 			throw exception1;
