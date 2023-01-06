@@ -13,4 +13,4 @@ In the board .txt file, the width and height of the word search board must be sp
 
 <img width="208" alt="image" src="https://user-images.githubusercontent.com/95982168/210909067-3b740a58-91ef-49e4-b497-29b6a109cef3.png">
 
-Lowercase and uppercase letters do not cause an issue inside both input files, although, results will print found words in uppercase letters for readability.
+Lowercase and uppercase letters do not cause an issue inside both input files, although, results will print found words in uppercase letters for readability, as seen above.
