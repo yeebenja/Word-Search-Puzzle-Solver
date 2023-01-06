@@ -1,5 +1,5 @@
 # Word Search Puzzle Solver
-Given a board with letters and a word bank, tile coordinates of each word from the word bank are calculated and reported to the user.
+Given a board of letters and a word bank, tile coordinates of each word from the word bank are calculated and reported to the user.
 
 <img width="461" alt="image" src="https://user-images.githubusercontent.com/95982168/210907444-d65631ec-e7ce-49a7-8751-7de524d28b4e.png">
 
