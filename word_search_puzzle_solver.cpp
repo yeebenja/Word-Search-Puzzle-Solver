@@ -86,6 +86,8 @@ public:
 
 	// Destructor
 	~word_search_puzzle_solver() {
+		// Make sure to delete all dynamically allocated
+		// tiles in board[]
 		for (size_t i = 0; i < total_number_of_tiles; ++i) delete board[i];
 	}
 	
