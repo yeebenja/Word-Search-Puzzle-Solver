@@ -3,7 +3,7 @@ Given a board of letters and a word bank, tile coordinates of each word from the
 
 <img width="461" alt="image" src="https://user-images.githubusercontent.com/95982168/210907444-d65631ec-e7ce-49a7-8751-7de524d28b4e.png">
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/95982168/210909323-661c5664-7b46-4b82-9be0-29fd877464e3.gif)
+![Word_search_solver_demo_Chinese_New_Year](https://user-images.githubusercontent.com/95982168/210911020-c314ef80-b369-4562-b107-618f4696f94d.gif)
 
 After "word_search_puzzle_solver.cpp" compiling, command line arguments must be included. Following the executable, the board .txt file and word bank .txt file are passed into main. In this example, "[executable] chinese_new_year_board.txt chinese_new_year_word_bank.txt" was called.
 
