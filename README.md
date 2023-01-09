@@ -18,3 +18,5 @@ In the board .txt file, the width and height of the word search board must be sp
 Lowercase and uppercase letters do not cause an issue inside both input files, although, results will print found words in uppercase letters for readability, as seen above.
 
 Included in the folder are some sample word search boards and word banks. Enjoy!
+
+Fun Fact: Palindrome words are found twice!
