@@ -20,3 +20,5 @@ Lowercase and uppercase letters do not cause an issue inside both input files, a
 Included in the folder are some sample word search boards and word banks. Enjoy!
 
 Fun Fact: Palindrome words are found twice!
+
+Aside: After taking my Programming and Data Structures course, I've realized that my implementation for this tool is highly inefficient. I should try to redo this project some other time. 😁
