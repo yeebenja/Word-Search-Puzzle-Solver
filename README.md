@@ -1,5 +1,5 @@
 # Word Search Puzzle Solver
-Given a board of letters and a word bank, tile coordinates of each word from the word bank are calculated and reported to the user.
+⭐Given a board of letters and a word bank, tile coordinates of each word from the word bank are calculated and reported to the user.
 
 <img width="461" alt="image" src="https://user-images.githubusercontent.com/95982168/210907444-d65631ec-e7ce-49a7-8751-7de524d28b4e.png">
 
@@ -17,8 +17,8 @@ In the board .txt file, the width and height of the word search board must be sp
 
 Lowercase and uppercase letters do not cause an issue inside both input files, although, results will print found words in uppercase letters for readability, as seen above.
 
-Included in the folder are some sample word search boards and word banks. Enjoy!
+⭐Included in the folder are some sample word search boards and word banks. Enjoy!
 
-Fun Fact: Palindrome words are found twice!
+⭐Fun Fact: Palindrome words are found twice!
 
-Aside: After taking my Programming and Data Structures course, I've realized that my implementation for this tool is highly inefficient. I should try to redo this project some other time. 😁
+⭐Aside: After taking my Programming and Data Structures course, I've realized that my implementation for this tool is highly inefficient. I should try to redo this project some other time. 😁
