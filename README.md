@@ -21,4 +21,4 @@ Lowercase and uppercase letters do not cause an issue inside both input files, a
 
 ⭐Fun Fact: Palindrome words are found twice!
 
-⭐Aside: After taking my Programming and Data Structures course, I've realized that my implementation for this tool is highly inefficient. I should try to redo this project some other time. 😁
+⭐Aside: After taking my Data Structures and Algorithms course, I've realized that my implementation for this tool is highly inefficient. I should try to redo this project some other time. 😁
