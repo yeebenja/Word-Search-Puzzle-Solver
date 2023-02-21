@@ -17,7 +17,7 @@ In the board .txt file, the width and height of the word search board must be sp
 
 Lowercase and uppercase letters do not cause an issue inside both input files, although, results will print found words in uppercase letters for readability, as seen above.
 
-⭐Included in the folder are some sample word search boards and word banks. Enjoy!
+⭐Included in the folder are some sample word search boards and word banks. The file "word_bank_3.txt" contains all words that are acceptable in Scrabble, so if you want to find every single possible word in the word search use "word_bank_3.txt" as your word bank. Enjoy! 😆
 
 ⭐Fun Fact: Palindrome words are found twice!
 
