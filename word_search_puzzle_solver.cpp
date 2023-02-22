@@ -54,10 +54,10 @@ class word_search_puzzle_solver {
 private:
 
 	struct Tile {	
-		// Note: Tile is just "plain old data". No need
-		// to use dynamic programming
+		// Note: Tile is just "plain old data". 
 		
 		char letter; // Represents what letter the tile represents
+		
 		// Tile pointers that point to other tiles around current tile
 		Tile* north;
 		Tile* northeast;
@@ -70,9 +70,9 @@ private:
 	};
 	Tile* board[20000]; // MAX SIZE = 20000, change as needed
 	Tile** board_start; // points to beginning of board[]
-	int width;
-	int height;
-	int total_number_of_tiles;
+	int width = 0;
+	int height = 0;
+	int total_number_of_tiles = 0;
 	string input_board_filename;
 	string word_bank_filename;
 	vector<string> word_bank;
